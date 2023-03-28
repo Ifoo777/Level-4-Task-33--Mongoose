@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*Add Padding and color scheme*/
+  padding:10%;
+  background-color: purple;
+  color: lightblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*Table Styling*/
+table{
+  border: 1px solid;
+  width: 100%;
+}
+th{
+  border: 1px solid;
+}
+td{
+  border: 1px solid;
+}
+
+/*Styling of elements*/
+input{
+  height: 100%;
+  width: 97%;
+}
+
+select {
+  height: 100%;
+  width: 97%;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  color: white;
+  font-weight: bolder;
+}
+
+button{
+  cursor: pointer;
+  width: 100px;
+}
+
+/*Styling of classed*/
+.options-Button{
+  background-color: black;
+  color: lime;
+  font-size: 1.2rem;
+  width: 400px;
+  border: 1px solid white;
+}
+
+.displayStatusInput{
+  width: 400px;
+}
